@@ -16,10 +16,11 @@
 }
 
 .main > span{
-  background: linear-gradient(to right , rgb(10, 255, 251) , rgb(214, 10, 255));
   font-size: 2vmax;
   font-weight: bold;
   text-transform: capitalize;
+  /* gradient text */
+  background: linear-gradient(to right , rgb(10, 255, 251) , rgb(214, 10, 255));
   background-clip: text;
   color: transparent;
   padding-bottom:2rem ;
