@@ -65,15 +65,14 @@ voice_ai/
 
 ### Prerequisites
 
-- Node.js 16+ ([Download here](https://nodejs.org/))
-- npm (comes with Node.js)
 - Modern browser with microphone access
 
 ### Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/voice-ai-project.git
+git clone https://github.com/Johnihb/simple-voice-ai
+.git
 
 # Navigate to project directory
 cd voice_ai
@@ -95,7 +94,7 @@ VITE_GEMINI_API_KEY=your_gemini_api_key_here
 ```
 
 > ⚠️ **Security Note**: Never commit your API key to version control. The `.env` file should be in your `.gitignore`.
-
+> ⚠️ ** since this is sample project i have directly integrated api key on gemini.js file which is not recommonded create `.env` file and import from there.
 ### Run Development Server
 
 ```bash
@@ -197,8 +196,7 @@ const newRole = {
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
+We welcome contributions! 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
@@ -207,7 +205,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This is a sample project.
 
 ## 🙏 Acknowledgments
 
